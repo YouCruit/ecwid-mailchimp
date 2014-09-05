@@ -33,7 +33,7 @@ import org.apache.http.util.EntityUtils;
  */
 public class HttpClientConnectionManager implements MailChimpConnectionManager {
 
-	private static final int DEFAULT_TIMEOUT = 15000;
+	private static final int DEFAULT_TIMEOUT = 600000;
 
 	private final HttpClient http = new DefaultHttpClient();
 
